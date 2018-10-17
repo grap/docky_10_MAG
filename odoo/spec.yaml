@@ -1,0 +1,7 @@
+odoo:
+    modules: []
+    src: https://github.com/OCA/ocb 10.0
+
+pos:
+    modules: [pos_picking_delayed]
+    src: https://github.com/grap/pos 10.0_ADD_pos_picking_delayed

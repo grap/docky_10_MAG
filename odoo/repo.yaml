@@ -1,0 +1,10 @@
+./external-src/pos:
+  default: {depth: 20}
+  merges: [origin 10.0_ADD_pos_picking_delayed]
+  remotes: {origin: 'https://github.com/grap/pos'}
+  target: origin 10.0_ADD_pos_picking_delayed
+src:
+  default: {depth: 20}
+  merges: [origin 10.0]
+  remotes: {origin: 'https://github.com/OCA/ocb'}
+  target: origin 10.0
